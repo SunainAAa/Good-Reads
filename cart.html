@@ -1,0 +1,39 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title> good reads</title>
+      <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="favicon (2).ico">
+    </head>
+<body>
+<form name="ShoppingList">
+    <fieldset>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+        <legend>Shopping cart</legend>
+        <label>Item: <input type="text" name="name"></label>
+        <label>Quantity: <input type="text" name="data"></label>
+
+        <input type="button" value="Save"   onclick="SaveItem()">
+        <input type="button" value="Update" onclick="ModifyItem()">
+        <input type="button" value="Delete" onclick="RemoveItem()">
+    </fieldset>
+    <div id="items_table">
+      <br>
+      <br>
+        <h2>Shopping List</h2>
+        <table id="list"></table>
+        <label><input type="button" value="Clear" onclick="ClearAll()">
+        * Delete all items</label>
+        <br>
+        <br>
+        <img src="https://media4.giphy.com/media/xUOxeSXjqTCTzkq40w/200w.webp?cid=ecf05e47al4woty3n3nvupr31cmy9916wy444c176nnbbq1q&rid=200w.webp">
+    </div>
+</form>
+
+</body>
+'</html>'
